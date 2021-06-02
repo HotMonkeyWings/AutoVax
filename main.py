@@ -33,12 +33,17 @@ if __name__=='__main__':
     fireFoxOptions.headless = True
     browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/home')
+    cnt = 1
 
     while 1:
         browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[-1].click()
-
-        placeSelector(browser, 18, 2)
-
+        place = ''
+        if cnt%2 == 0:
+            placeSelector(browser, 18, 2)
+            place = "Ernakulam"
+        else:
+            placeSelector(browser, 18, 1)
+            place = "Alapuzha"
         # Hit Search
         browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/       div/div/div/div/div/div/div/div/div/div/form/mat-tab-group/div/mat-tab-body[3]/div/div/div[3]   /button').click()
 
@@ -50,12 +55,13 @@ if __name__=='__main__':
         currentTime = datetime.now()
         currentTime = currentTime.strftime("%H:%M:%S")
         if len(available) > 0:
-            print(str(currentTime) + ": Doses available")
+            print(str(currentTime) + ": Doses available in " + place)
             playsound('./notif.mp3')
         else:
-            print(str(currentTime) + ": No doses available")
+            print(str(currentTime) + ": No doses available in " + place)
 
-        time.sleep(30)
+        if cnt%2 == 0:
+            time.sleep(30)
         browser.refresh()
-    
+        cnt += 1
     browser.quit()
