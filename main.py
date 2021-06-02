@@ -34,9 +34,9 @@ if __name__=='__main__':
     browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/home')
     cnt = 1
-
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[-1].click()
     while 1:
-        browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[-1].click()
+        
         place = ''
         if cnt%2 == 0:
             placeSelector(browser, 18, 2)
@@ -61,7 +61,6 @@ if __name__=='__main__':
             print(str(currentTime) + ": No doses available in " + place)
 
         if cnt%2 == 0:
-            time.sleep(30)
-        browser.refresh()
+            time.sleep(10)
         cnt += 1
     browser.quit()
