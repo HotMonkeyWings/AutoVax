@@ -1,0 +1,435 @@
+1622080561229	geckodriver	INFO	Listening on 127.0.0.1:45945
+1622080561231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3TPR9c"
+1622080561438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622080562328	Marionette	INFO	Listening on port 42749
+1622080562347	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://selfregistration.cowin.gov.in"
+1622082668260	Marionette	INFO	Stopped listening on port 42749
+1622516315478	geckodriver	INFO	Listening on 127.0.0.1:48439
+1622516315481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletjwqnO"
+1622516315695	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516316569	Marionette	INFO	Listening on port 44849
+1622516316603	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516588560	Marionette	INFO	Stopped listening on port 44849
+1622516589778	geckodriver	INFO	Listening on 127.0.0.1:34117
+1622516589780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8J7l5y"
+1622516589980	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516590785	Marionette	INFO	Listening on port 37923
+1622516590890	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516618396	Marionette	INFO	Stopped listening on port 37923
+1622516619880	geckodriver	INFO	Listening on 127.0.0.1:42981
+1622516619882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelx6Ci0"
+1622516620081	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516620994	Marionette	INFO	Listening on port 37351
+1622516621092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516624718	Marionette	INFO	Stopped listening on port 37351
+1622516633828	geckodriver	INFO	Listening on 127.0.0.1:56225
+1622516633830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecHHkQt"
+1622516634032	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516634888	Marionette	INFO	Listening on port 42425
+1622516634941	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516638699	Marionette	INFO	Stopped listening on port 42425
+1622516651410	geckodriver	INFO	Listening on 127.0.0.1:43805
+1622516651412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7Tax52"
+1622516651616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516652438	Marionette	INFO	Listening on port 46613
+1622516652523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516656136	Marionette	INFO	Stopped listening on port 46613
+1622516659767	geckodriver	INFO	Listening on 127.0.0.1:37925
+1622516659769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUUqyLt"
+1622516659981	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516660792	Marionette	INFO	Listening on port 33337
+1622516660879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516710187	geckodriver	INFO	Listening on 127.0.0.1:46475
+1622516710189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDPl0qM"
+1622516710395	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516711259	Marionette	INFO	Listening on port 44767
+1622516711304	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1622516712555	Marionette	INFO	Stopped listening on port 33337
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: file:///home/monkeywings/Projects/Python/Vax/Diff_files/map_load.js, line 2: unreachable code after return statement
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+1622516793324	Marionette	INFO	Stopped listening on port 44767
+1622516799181	geckodriver	INFO	Listening on 127.0.0.1:46335
+1622516799183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePs7zn5"
+*** You are running in headless mode.
+1622516799353	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:184507): GLib-GObject-CRITICAL **: 08:36:39.701: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:184527): GLib-GObject-CRITICAL **: 08:36:39.818: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622516800136	Marionette	INFO	Listening on port 39065
+1622516800193	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:184607): GLib-GObject-CRITICAL **: 08:36:40.698: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622516810343	geckodriver	INFO	Listening on 127.0.0.1:39191
+1622516810345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQm2fEd"
+*** You are running in headless mode.
+1622516810530	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:184763): GLib-GObject-CRITICAL **: 08:36:50.880: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:184783): GLib-GObject-CRITICAL **: 08:36:51.001: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622516811336	Marionette	INFO	Listening on port 33473
+1622516811354	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:184862): GLib-GObject-CRITICAL **: 08:36:51.881: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622516821608	geckodriver	INFO	Listening on 127.0.0.1:54153
+1622516821611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet07bFz"
+1622516821832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622516822660	Marionette	INFO	Listening on port 39395
+1622516822721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622516841383	Marionette	INFO	Stopped listening on port 39395
+1622562105737	geckodriver	INFO	Listening on 127.0.0.1:56573
+1622562106697	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePDxLiN"
+1622562106930	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622562107881	Marionette	INFO	Listening on port 42195
+1622562107911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 21: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1622562186431	geckodriver	INFO	Listening on 127.0.0.1:41373
+1622562186433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiDYTbg"
+*** You are running in headless mode.
+1622562186642	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:220945): GLib-GObject-CRITICAL **: 21:13:07.006: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:220965): GLib-GObject-CRITICAL **: 21:13:07.125: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622562187451	Marionette	INFO	Listening on port 46821
+1622562187543	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:221045): GLib-GObject-CRITICAL **: 21:13:08.018: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1622562290126	Marionette	INFO	Stopped listening on port 42195
+1622562293926	geckodriver	INFO	Listening on 127.0.0.1:53763
+1622562293929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKIXDhb"
+*** You are running in headless mode.
+1622562294171	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:221290): GLib-GObject-CRITICAL **: 21:14:54.541: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:221310): GLib-GObject-CRITICAL **: 21:14:54.659: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622562295012	Marionette	INFO	Listening on port 36241
+1622562295039	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:221388): GLib-GObject-CRITICAL **: 21:14:55.537: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622562322999	geckodriver	INFO	Listening on 127.0.0.1:53383
+1622562323001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQeORv7"
+*** You are running in headless mode.
+1622562323219	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:221546): GLib-GObject-CRITICAL **: 21:15:23.589: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:221566): GLib-GObject-CRITICAL **: 21:15:23.703: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622562324063	Marionette	INFO	Listening on port 35737
+1622562324112	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:221665): GLib-GObject-CRITICAL **: 21:15:24.583: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622562449917	geckodriver	INFO	Listening on 127.0.0.1:50755
+1622562449919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileReOaw5"
+*** You are running in headless mode.
+1622562450097	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:222418): GLib-GObject-CRITICAL **: 21:17:30.461: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:222438): GLib-GObject-CRITICAL **: 21:17:30.579: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622562450922	Marionette	INFO	Listening on port 38687
+1622562451031	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:222516): GLib-GObject-CRITICAL **: 21:17:31.470: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622563895457	geckodriver	INFO	Listening on 127.0.0.1:38699
+1622563895459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemq0w7n"
+*** You are running in headless mode.
+1622563895639	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:223460): GLib-GObject-CRITICAL **: 21:41:36.005: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:223480): GLib-GObject-CRITICAL **: 21:41:36.128: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622563896446	Marionette	INFO	Listening on port 42017
+1622563896472	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:223560): GLib-GObject-CRITICAL **: 21:41:37.009: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622595837347	geckodriver	INFO	Listening on 127.0.0.1:52787
+1622595837350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4VgjYb"
+*** You are running in headless mode.
+1622595837531	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:233264): GLib-GObject-CRITICAL **: 06:33:57.878: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:233284): GLib-GObject-CRITICAL **: 06:33:57.992: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622595838335	Marionette	INFO	Listening on port 42647
+1622595838359	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:233364): GLib-GObject-CRITICAL **: 06:33:58.873: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1622597504682	geckodriver	INFO	Listening on 127.0.0.1:39671
+1622597504684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebQNnKd"
+*** You are running in headless mode.
+1622597504857	Marionette	INFO	Marionette enabled
+
+(/usr/lib/firefox/firefox:242360): GLib-GObject-CRITICAL **: 07:01:45.208: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:242380): GLib-GObject-CRITICAL **: 07:01:45.328: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1622597505652	Marionette	INFO	Listening on port 44499
+1622597505693	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:242459): GLib-GObject-CRITICAL **: 07:01:46.206: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 2: unreachable code after return statement
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://mmiplugins.mapmyindia.in/advancedmaps/v1/a10e0dd2cd71386ee4ab90873e804eb8/map_load?v=1.5, line 25: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
