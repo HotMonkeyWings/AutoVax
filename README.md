@@ -1,7 +1,5 @@
 # Cowin Slot Lookup
 
-./trial.mp4
-
 This is a simple selenium python script that looks up available slots on the cowin website. As the website is changing daily due to bug fixes, the code is changed on a regular basis to maintain the right paths.
 
 ## Prerequisites
