@@ -13,13 +13,14 @@ pip install selenium
 pip install playsound
 ```
 
-## Installation
+## Installation and Running
 
 Clone the repo, cd into it, run main.py.
 
 ```
 git clone https://github.com/HotMonkeyWings/AutoVax.git
 cd Vax
+python main.py
 ```
 
 ### Config
