@@ -28,7 +28,7 @@ To have a look at how the browser is working, turn headless mode off.
 fireFoxOptions.headless = False
 ```
 
-To select your own state and district, change the option numbers in placeSelector()
+To select your own state and district, change the paramater values in placeSelector()
 
 To disable 18+ filter, comment that line out.
 
