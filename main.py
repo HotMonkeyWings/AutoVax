@@ -6,7 +6,19 @@ from datetime import datetime
 import time
 from playsound import playsound
 
-def placeSelector(browser, state, district):
+# Find available slots
+def availabilityFinder(browser, place):
+    available = browser.find_elements(By.CLASS_NAME,'dosetotal')
+    currentTime = datetime.now()
+    currentTime = currentTime.strftime("%H:%M:%S")
+    if len(available) > 0:
+        print(str(currentTime) + ": Doses available in " + place)
+        playsound('./notif.mp3')
+    else:
+        print(str(currentTime) + ": No doses available in " + place)
+
+# Selects right district
+def districtSelector(browser, state, district):
     state = int(state)
     district = int(district)
     # Selects State
@@ -21,26 +33,49 @@ def placeSelector(browser, state, district):
     browser.find_element(By.ID,'mat-select-2').click()
     browser.find_element(By.XPATH, xpath).click()
 
-    # 1 - Alapuzha
-    # 2 - Ernakulam
-    # 5 - Kasargod
+# Select by district
+def searchByDistrict(fireFoxOptions):
+    districts = [
+        'Alapuzha', 
+        'Ernakulam', 
+        'Idukki', 
+        'Kannur', 
+        'Kasaragod', 
+        'Kollam',
+        'Kottayam',
+        'Kozhikode', 
+        'Malappuram',
+        'Palakkad', 
+        'Pathanamthitta', 
+        'Thiruvananthapuram',
+        'Thrissur',
+        'Wayanad' 
+    ]
+    
+    print('Districts')
+    print('---------')
+    print('1. Alapuzha\n2. Ernakulam\n3. Idukki\n4. Kannur\n5. Kasaragod\n6. Kollam\n7. Kottayam\n8. Kozhikode\n9. Malappuram\n10. Palakkad\n11. Pathanamthitta\n12. Thiruvananthapuram\n13. Thrissur\n14. Wayanad\n')
 
-if __name__=='__main__':
+    primary = int(input("Enter Primary District: "))
+    secondary = int(input("Enter Secondary District: "))
 
-    fireFoxOptions = Options()
-    fireFoxOptions.headless = True
     browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
+
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[2].click()
+
     cnt = 1
-    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[-1].click()
+    place = ''
+
+    print()
+
     while 1:
-        place = ''
         if cnt%2 == 0:
-            placeSelector(browser, 18, 2)
-            place = "Ernakulam"
+            districtSelector(browser, 18, primary)
+            place = districts[primary-1]
         else:
-            placeSelector(browser, 18, 1)
-            place = "Alapuzha"
+            districtSelector(browser, 18, secondary)
+            place = districts[secondary-1]
 
         # Hit Search
         browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
@@ -48,18 +83,58 @@ if __name__=='__main__':
         # Select 18+
         browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
-        # Availabe slots have a 'dosetotal' class name (Although it could glitch beyond 100+ due to number of entries per second)
-        available = browser.find_elements(By.CLASS_NAME,'dosetotal')
-
-        currentTime = datetime.now()
-        currentTime = currentTime.strftime("%H:%M:%S")
-        if len(available) > 0:
-            print(str(currentTime) + ": Doses available in " + place)
-            playsound('./notif.mp3')
-        else:
-            print(str(currentTime) + ": No doses available in " + place)
+        availabilityFinder(browser, place)
 
         if cnt%2 == 0:
             time.sleep(10)
         cnt += 1
+
     browser.quit()
+
+# Search by PIN
+def searchByPIN(fireFoxOptions):
+    pins = input("Enter PINs (space separated): ").split()
+
+    browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
+    browser.get('https://www.cowin.gov.in/')
+
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click() 
+
+    searchBar = browser.find_element(By.ID,'mat-input-0')
+
+    while 1:
+        for pin in pins:
+            searchBar.clear()
+            searchBar.send_keys(pin)
+
+             # Hit Search
+            browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
+
+            # Select 18+
+            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+
+            availabilityFinder(browser, pin)
+            time.sleep(0.1)
+        time.sleep(10)
+
+
+if __name__ == "__main__":
+    fireFoxOptions = Options()
+
+    # GUI or Headless
+    fireFoxOptions.headless = True if int(input("1. GUI\n2. Background\nOption: "))==2 else False
+    
+    print()
+
+    opt = int(input("1. Search by PIN\n2. Search by District\nOption: "))
+
+    print()
+
+    if opt == 1:
+        searchByPIN(fireFoxOptions)
+
+    elif opt == 2:
+        searchByDistrict(fireFoxOptions)
+    
+    else:
+        pass
