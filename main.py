@@ -43,10 +43,10 @@ if __name__=='__main__':
             place = "Alapuzha"
 
         # Hit Search
-        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/form/mat-tab-group/div/mat-tab-body[3]/div/div/div[3]/button').click()
+        browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
 
         # Select 18+
-        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').   click()
+        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
         # Availabe slots have a 'dosetotal' class name (Although it could glitch beyond 100+ due to number of entries per second)
         available = browser.find_elements(By.CLASS_NAME,'dosetotal')
