@@ -81,7 +81,7 @@ def searchByDistrict(fireFoxOptions):
         browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
 
         # Select 18+
-        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
         availabilityFinder(browser, place)
 
@@ -111,7 +111,7 @@ def searchByPIN(fireFoxOptions):
             browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
 
             # Select 18+
-            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
             availabilityFinder(browser, pin)
             time.sleep(0.1)
