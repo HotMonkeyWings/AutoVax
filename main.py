@@ -16,6 +16,7 @@ def identifyOS():
         filePath = './win/geckodriver.exe'
     else:
         filePath = './macos/geckodriver'
+#    print(filePath)
     return webdriver.Firefox(options=fireFoxOptions,executable_path=filePath)
         
         
