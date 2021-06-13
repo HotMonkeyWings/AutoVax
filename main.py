@@ -10,9 +10,9 @@ from sys import platform
 # Find OS
 def identifyOS():
     filePath = ''
-    if platform == "linux" or platform == "linux2":
+    if platform == 'linux' or platform == 'linux2':
         filePath = './linux/geckodriver'
-    elif platform == "win64" or platform == "win64":
+    elif platform == 'win32' or platform == 'win64':
         filePath = './win/geckodriver.exe'
     else:
         filePath = './macos/geckodriver'
@@ -26,10 +26,10 @@ def availabilityFinder(browser, place):
     currentTime = datetime.now()
     currentTime = currentTime.strftime("%H:%M:%S")
     if len(available) > 0:
-        print(str(currentTime) + ": Doses available in " + place)
+        print(str(currentTime) + ': Doses available in ' + place)
         playsound('./notif.mp3')
     else:
-        print(str(currentTime) + ": No doses available in " + place)
+        print(str(currentTime) + ': No doses available in ' + place)
 
 # Selects right district
 def districtSelector(browser, state, district):
@@ -108,7 +108,7 @@ def searchByDistrict(fireFoxOptions):
 
 # Search by PIN
 def searchByPIN(fireFoxOptions):
-    pins = input("Enter PINs (space separated): ").split()
+    pins = input('Enter PINs (space separated): ').split()
 
     browser = identifyOS()
     # webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
@@ -138,11 +138,11 @@ if __name__ == "__main__":
     fireFoxOptions = Options()
 
     # GUI or Headless
-    fireFoxOptions.headless = True if int(input("1. GUI\n2. Background\nOption: "))==2 else False
+    fireFoxOptions.headless = True if int(input('1. GUI\n2. Background\nOption: '))==2 else False
     
     print()
 
-    opt = int(input("1. Search by PIN\n2. Search by District\nOption: "))
+    opt = int(input('1. Search by PIN\n2. Search by District\nOption: '))
 
     print()
 
