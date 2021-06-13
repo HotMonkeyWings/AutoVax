@@ -62,7 +62,7 @@ def searchByDistrict(fireFoxOptions):
     browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
-    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[2].click()
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click()
 
     cnt = 1
     place = ''
@@ -98,7 +98,7 @@ def searchByPIN(fireFoxOptions):
     browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
-    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click() 
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click() 
 
     searchBar = browser.find_element(By.ID,'mat-input-0')
 
