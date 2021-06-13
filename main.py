@@ -5,6 +5,20 @@ from selenium.webdriver.firefox.options import Options
 from datetime import datetime
 import time
 from playsound import playsound
+from sys import platform
+
+# Find OS
+def identifyOS():
+    filePath = ''
+    if platform == "linux" or platform == "linux2":
+        filePath = './linux/geckodriver'
+    elif platform == "win64" or platform == "win64":
+        filePath = './win/geckodriver.exe'
+    else:
+        filePath = './macos/geckodriver'
+    return webdriver.Firefox(options=fireFoxOptions,executable_path=filePath)
+        
+        
 
 # Find available slots
 def availabilityFinder(browser, place):
@@ -59,7 +73,8 @@ def searchByDistrict(fireFoxOptions):
     primary = int(input("Enter Primary District: "))
     secondary = int(input("Enter Secondary District: "))
 
-    browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
+    browser = identifyOS()
+    # webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
     browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click()
@@ -95,7 +110,8 @@ def searchByDistrict(fireFoxOptions):
 def searchByPIN(fireFoxOptions):
     pins = input("Enter PINs (space separated): ").split()
 
-    browser = webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
+    browser = identifyOS()
+    # webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
     browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click() 
