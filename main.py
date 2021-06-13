@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common import by
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+from selenium. common. exceptions import NoSuchElementException
 from datetime import datetime
 import time
 from playsound import playsound
@@ -29,6 +30,7 @@ def availabilityFinder(browser, place):
     if len(available) > 0:
         print(str(currentTime) + ': Doses available in ' + place)
         playsound('./notif.mp3')
+
     else:
         print(str(currentTime) + ': No doses available in ' + place)
 
@@ -75,7 +77,6 @@ def searchByDistrict(fireFoxOptions):
     secondary = int(input("Enter Secondary District: "))
 
     browser = identifyOS()
-    # webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
     browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click()
@@ -93,13 +94,17 @@ def searchByDistrict(fireFoxOptions):
             districtSelector(browser, 18, secondary)
             place = districts[secondary-1]
 
-        # Hit Search
-        browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
+        try:
+            # Hit Search
+            browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
 
-        # Select 18+
-        browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+            # Select 18+
+            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
-        availabilityFinder(browser, place)
+            availabilityFinder(browser, place)
+
+        except NoSuchElementException:
+                print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
 
         if cnt%2 == 0:
             time.sleep(10)
@@ -112,7 +117,6 @@ def searchByPIN(fireFoxOptions):
     pins = input('Enter PINs (space separated): ').split()
 
     browser = identifyOS()
-    # webdriver.Firefox(options=fireFoxOptions,executable_path='./geckodriver')
     browser.get('https://www.cowin.gov.in/')
 
     browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click() 
@@ -123,14 +127,17 @@ def searchByPIN(fireFoxOptions):
         for pin in pins:
             searchBar.clear()
             searchBar.send_keys(pin)
+            try:
+                # Hit Search
+                browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
 
-             # Hit Search
-            browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
+                # Select 18+
+                browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
-            # Select 18+
-            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
-
-            availabilityFinder(browser, pin)
+                availabilityFinder(browser, pin)
+                
+            except NoSuchElementException:
+                print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
             time.sleep(0.1)
         time.sleep(10)
 
