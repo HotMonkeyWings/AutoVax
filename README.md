@@ -29,7 +29,7 @@ python main.py
 ```
 fireFoxOptions.headless = False
 ```
-- You could search by district or by PIN. (Note: District is currently only limited to Kerala. To manually change it, change the `state` paramaeter in `searchByDistrict` from 18 to your state's number in the cowin website list)
+- You could search by district or by PIN. (Note: District is currently only limited to Kerala. To manually change it, change the `state` paramaeter in `searchByDistrict` from 18 to your state's number in the cowin website list, **refer line 91 & 94** )
 
 - To disable 18+ filter, comment that line out.
 
