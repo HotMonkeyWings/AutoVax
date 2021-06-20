@@ -9,8 +9,6 @@ from playsound import playsound
 from sys import platform
 
 # Find OS
-
-
 def identifyOS():
     filePath = ''
     if platform == 'linux' or platform == 'linux2':
@@ -24,17 +22,11 @@ def identifyOS():
 
 # Find available slots
 def availabilityFinder(browser, place):
-    try:
-        available = browser.find_elements(By.CLASS_NAME, 'dosetotal')
-    except NoSuchElementException:
-        print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer. Or the sites glitched.')
-        return 0
-
+    available = browser.find_elements(By.CLASS_NAME, 'dosetotal')
     currentTime = datetime.now()
     currentTime = currentTime.strftime("%H:%M:%S")
     if len(available) > 0:
         print(str(currentTime) + ': Doses available in ' + place)
-        # browser.execute_script('arguments[0].scrollIntoView();', available)
 
         playsound('./notif.mp3')
 
