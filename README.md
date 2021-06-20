@@ -25,14 +25,13 @@ python main.py
 
 ### Config
 
-To have a look at how the browser is working, turn headless mode off.
+- To have a look at how the browser is working, turn headless mode off. (Option is now available on running the program)
 ```
 fireFoxOptions.headless = False
 ```
+- You could search by district or by PIN. (Note: District is currently only limited to Kerala. To manually change it, change the `state` paramaeter in `searchByDistrict` from 18 to your state's number in the cowin website list)
 
-To select your own state and district, change the paramater values in placeSelector()
-
-To disable 18+ filter, comment that line out.
+- To disable 18+ filter, comment that line out.
 
 ## Credits
 Dev Sony - [@HotMonkeyWings](https://github.com/HotMonkeyWings)
