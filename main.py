@@ -9,6 +9,8 @@ from playsound import playsound
 from sys import platform
 
 # Find OS
+
+
 def identifyOS():
     filePath = ''
     if platform == 'linux' or platform == 'linux2':
@@ -40,15 +42,13 @@ def districtSelector(browser, state, district):
     district = int(district)
     # Selects State
     browser.find_element(By.ID, 'mat-select-0').click()
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
-        state)
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(state)
     browser.find_element(By.XPATH, xpath).click()
 
     time.sleep(0.1)
 
     # Selects District
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
-        district)
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(district)
     browser.find_element(By.ID, 'mat-select-2').click()
     browser.find_element(By.XPATH, xpath).click()
 
@@ -117,6 +117,8 @@ def searchByDistrict(fireFoxOptions):
     browser.quit()
 
 # Search by PIN
+
+
 def searchByPIN(fireFoxOptions):
     pins = input('Enter PINs (space separated): ').split()
 
