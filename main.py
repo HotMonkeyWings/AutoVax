@@ -17,58 +17,62 @@ def identifyOS():
         filePath = './win/geckodriver.exe'
     else:
         filePath = './macos/geckodriver'
-#    print(filePath)
-    return webdriver.Firefox(options=fireFoxOptions,executable_path=filePath)
-        
-        
+    return webdriver.Firefox(options=fireFoxOptions, executable_path=filePath)
+
 
 # Find available slots
 def availabilityFinder(browser, place):
-    available = browser.find_elements(By.CLASS_NAME,'dosetotal')
+    available = browser.find_elements(By.CLASS_NAME, 'dosetotal')
     currentTime = datetime.now()
     currentTime = currentTime.strftime("%H:%M:%S")
     if len(available) > 0:
         print(str(currentTime) + ': Doses available in ' + place)
+        browser.execute_script('arguments[0].scrollIntoView();', available)
+
         playsound('./notif.mp3')
 
     else:
         print(str(currentTime) + ': No doses available in ' + place)
+
 
 # Selects right district
 def districtSelector(browser, state, district):
     state = int(state)
     district = int(district)
     # Selects State
-    browser.find_element(By.ID,'mat-select-0').click()
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(state)
-    browser.find_element(By.XPATH,xpath).click()
+    browser.find_element(By.ID, 'mat-select-0').click()
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
+        state)
+    browser.find_element(By.XPATH, xpath).click()
 
     time.sleep(0.1)
 
     # Selects District
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(district)
-    browser.find_element(By.ID,'mat-select-2').click()
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
+        district)
+    browser.find_element(By.ID, 'mat-select-2').click()
     browser.find_element(By.XPATH, xpath).click()
+
 
 # Select by district
 def searchByDistrict(fireFoxOptions):
     districts = [
-        'Alapuzha', 
-        'Ernakulam', 
-        'Idukki', 
-        'Kannur', 
-        'Kasaragod', 
+        'Alapuzha',
+        'Ernakulam',
+        'Idukki',
+        'Kannur',
+        'Kasaragod',
         'Kollam',
         'Kottayam',
-        'Kozhikode', 
+        'Kozhikode',
         'Malappuram',
-        'Palakkad', 
-        'Pathanamthitta', 
+        'Palakkad',
+        'Pathanamthitta',
         'Thiruvananthapuram',
         'Thrissur',
-        'Wayanad' 
+        'Wayanad'
     ]
-    
+
     print('Districts')
     print('---------')
     print('1. Alapuzha\n2. Ernakulam\n3. Idukki\n4. Kannur\n5. Kasaragod\n6. Kollam\n7. Kottayam\n8. Kozhikode\n9. Malappuram\n10. Palakkad\n11. Pathanamthitta\n12. Thiruvananthapuram\n13. Thrissur\n14. Wayanad\n')
@@ -87,7 +91,7 @@ def searchByDistrict(fireFoxOptions):
     print()
 
     while 1:
-        if cnt%2 == 0:
+        if cnt % 2 == 0:
             districtSelector(browser, 18, primary)
             place = districts[primary-1]
         else:
@@ -96,17 +100,18 @@ def searchByDistrict(fireFoxOptions):
 
         try:
             # Hit Search
-            browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
+            browser.find_element(By.CLASS_NAME, 'pin-search-btn').click()
 
             # Select 18+
-            browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+            browser.find_element(
+                By.XPATH, '/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
             availabilityFinder(browser, place)
 
         except NoSuchElementException:
-                print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
+            print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
 
-        if cnt%2 == 0:
+        if cnt % 2 == 0:
             time.sleep(10)
         cnt += 1
 
@@ -119,9 +124,9 @@ def searchByPIN(fireFoxOptions):
     browser = identifyOS()
     browser.get('https://www.cowin.gov.in/')
 
-    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click() 
+    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click()
 
-    searchBar = browser.find_element(By.ID,'mat-input-0')
+    searchBar = browser.find_element(By.ID, 'mat-input-0')
 
     while 1:
         for pin in pins:
@@ -129,13 +134,14 @@ def searchByPIN(fireFoxOptions):
             searchBar.send_keys(pin)
             try:
                 # Hit Search
-                browser.find_element(By.CLASS_NAME,'pin-search-btn').click()
+                browser.find_element(By.CLASS_NAME, 'pin-search-btn').click()
 
                 # Select 18+
-                browser.find_element(By.XPATH,'/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
+                browser.find_element(
+                    By.XPATH, '/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
 
                 availabilityFinder(browser, pin)
-                
+
             except NoSuchElementException:
                 print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
             time.sleep(0.1)
@@ -146,8 +152,9 @@ if __name__ == "__main__":
     fireFoxOptions = Options()
 
     # GUI or Headless
-    fireFoxOptions.headless = True if int(input('1. GUI\n2. Background\nOption: '))==2 else False
-    
+    fireFoxOptions.headless = True if int(
+        input('1. GUI\n2. Background\nOption: ')) == 2 else False
+
     print()
 
     opt = int(input('1. Search by PIN\n2. Search by District\nOption: '))
@@ -159,6 +166,6 @@ if __name__ == "__main__":
 
     elif opt == 2:
         searchByDistrict(fireFoxOptions)
-    
+
     else:
         pass
