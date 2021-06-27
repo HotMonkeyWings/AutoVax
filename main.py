@@ -24,7 +24,21 @@ def identifyOS():
 
 # Find available slots
 def availabilityFinder(browser, place):
-    available = browser.find_elements(By.CLASS_NAME, 'dosetotal')
+    available = browser.find_elements(By.CLASS_NAME, 'doestotal')
+    # ages = browser.find_elements(By.CLASS_NAME, 'age-limit')
+    # for age in ages:
+    #     print(age.text)
+    # open_slots = []
+
+    # for slot in slots:
+        # availabe_slots = slot.find_elements(By.CLASS_NAME, 'dosetotal')
+        # print(availabe_slots, len(availabe_slots))
+        # age = slot.find_elements(By.CLASS_NAME, 'age-limit')
+        # print(availabe_slots, len(availabe_slots), age, len(age))
+        # if availabe_slots != 0:
+            # age = slot.find_element(By.CLASS_NAME, 'age-limit').text
+            # print(age)
+
     currentTime = datetime.now()
     currentTime = currentTime.strftime("%H:%M:%S")
     if len(available) > 0:
@@ -42,13 +56,15 @@ def districtSelector(browser, state, district):
     district = int(district)
     # Selects State
     browser.find_element(By.ID, 'mat-select-0').click()
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(state)
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
+        state)
     browser.find_element(By.XPATH, xpath).click()
 
     time.sleep(0.1)
 
     # Selects District
-    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(district)
+    xpath = '/html/body/div[2]/div[2]/div/div/div/mat-option[{}]/span'.format(
+        district)
     browser.find_element(By.ID, 'mat-select-2').click()
     browser.find_element(By.XPATH, xpath).click()
 
@@ -76,43 +92,54 @@ def searchByDistrict(fireFoxOptions):
     print('---------')
     print('1. Alapuzha\n2. Ernakulam\n3. Idukki\n4. Kannur\n5. Kasaragod\n6. Kollam\n7. Kottayam\n8. Kozhikode\n9. Malappuram\n10. Palakkad\n11. Pathanamthitta\n12. Thiruvananthapuram\n13. Thrissur\n14. Wayanad\n')
 
-    primary = int(input("Enter Primary District: "))
-    secondary = int(input("Enter Secondary District: "))
+    primary = int(input("Enter District: "))
+    # secondary = int(input("Enter Secondary District: "))
 
     browser = identifyOS()
-    browser.get('https://www.cowin.gov.in/')
+    # browser.get('https://www.cowin.gov.in/')
+    browser.get('https://selfregistration.cowin.gov.in/')
+    phoneNo = input("Enter Number: ")
+    # Select statement
+    browser.find_element(By.CLASS_NAME, 'mat-input-element').send_keys(phoneNo)
+    browser.find_element(By.CLASS_NAME,'covid-button-desktop').click()
+    otp = input("Enter OTP: ")
+    browser.find_element(By.CLASS_NAME, 'mat-input-element').send_keys(otp)
+    browser.find_element(By.CLASS_NAME,'covid-button-desktop').click()
+    time.sleep(5)
 
-    browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click()
 
+    browser.find_element(By.CLASS_NAME, 'btnlist').click()
+    browser.find_element(By.CLASS_NAME,'status-switch').click()
+    # browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[1].click()
     cnt = 1
     place = ''
 
     print()
 
     while 1:
-        if cnt % 2 == 0:
-            districtSelector(browser, 18, primary)
-            place = districts[primary-1]
-        else:
-            districtSelector(browser, 18, secondary)
-            place = districts[secondary-1]
+        # if cnt % 2 == 0:
+        #     districtSelector(browser, 18, primary)
+        #     place = districts[primary-1]
+        # else:
+        #     districtSelector(browser, 18, secondary)
+        #     place = districts[secondary-1]
+        districtSelector(browser, 18, primary)
+        place = districts[primary-1]
+        # try:
+        # Hit Search
+        browser.find_element(By.CLASS_NAME, 'pin-search-btn').click()
+        # Select 18+
+        # browser.find_element(By.XPATH, '/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]label').click()
+        availabilityFinder(browser, place)
 
-        try:
-            # Hit Search
-            browser.find_element(By.CLASS_NAME, 'pin-search-btn').click()
+        # except NoSuchElementException:
+        # print(
+            # '[!] Error @SearchByDistrict! Notify MonkeyWings that he\'s a bad Programmer.')
 
-            # Select 18+
-            browser.find_element(
-                By.XPATH, '/html/body/app-root/div/app-home/div[3]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div[1]/div/div[1]/label').click()
-
-            availabilityFinder(browser, place)
-
-        except NoSuchElementException:
-            print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
-
-        if cnt % 2 == 0:
-            time.sleep(10)
-        cnt += 1
+        # if cnt % 2 == 0:
+            # time.sleep(10)
+        # cnt += 1
+        time.sleep(50)
 
     browser.quit()
 
@@ -123,7 +150,18 @@ def searchByPIN(fireFoxOptions):
     pins = input('Enter PINs (space separated): ').split()
 
     browser = identifyOS()
-    browser.get('https://www.cowin.gov.in/')
+    # browser.get('https://www.cowin.gov.in/')
+    browser.get('https://selfregistration.cowin.gov.in/')
+    phoneNo = input("Enter Number: ")
+    # Select statement
+    browser.find_element(By.CLASS_NAME, 'mat-input-element').send_keys(phoneNo)
+    browser.find_element(By.CLASS_NAME,'covid-button-desktop').click()
+    otp = input("Enter OTP: ")
+    browser.find_element(By.CLASS_NAME, 'mat-input-element').send_keys(otp)
+    browser.find_element(By.CLASS_NAME,'covid-button-desktop').click()
+
+    # Input statement
+    # Click statement
 
     browser.find_elements(By.CLASS_NAME, 'mat-tab-label-content')[0].click()
 
@@ -144,7 +182,8 @@ def searchByPIN(fireFoxOptions):
                 availabilityFinder(browser, pin)
 
             except NoSuchElementException:
-                print('[!] Error! Notify MonkeyWings that he\'s a bad Programmer.')
+                print(
+                    '[!] Error @SearchByPIN! Notify MonkeyWings that he\'s a bad Programmer.')
             time.sleep(0.1)
         time.sleep(10)
 
